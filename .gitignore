@@ -4,5 +4,7 @@
 # But not these files/directories:
 !.gitignore
 !index.html
+!netlify.toml
 !public/
 !public/**
+
