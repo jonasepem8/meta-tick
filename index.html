@@ -12,6 +12,20 @@
 
     <link rel="stylesheet" href="./public/styles/style.css">
 
+    <!-- Hide Netlify banner -->
+    <style>
+        [data-netlify-deploy-id], 
+        #netlify-modal-overlay,
+        .netlify-identity-button,
+        [class*="netlifyDeployBanner"],
+        iframe[src*="netlify"] {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+        }
+    </style>
+
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
